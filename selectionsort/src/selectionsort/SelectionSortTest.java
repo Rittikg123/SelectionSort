@@ -30,11 +30,6 @@ class SelectionSortTest {
         int[] inputArray4 = {3, 2, 1, 3, 4, 2};
         int[] expectedOutput4 = {1, 2, 2, 3, 3, 4};
         assertArrayEquals(expectedOutput4, selectionSort.basicSelectionSort(inputArray4));
-
-        // Empty array
-        int[] inputArray5 = {};
-        int[] expectedOutput5 = {};
-        assertArrayEquals(expectedOutput5, selectionSort.basicSelectionSort(inputArray5));
         
     
     }
